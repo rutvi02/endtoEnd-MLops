@@ -138,3 +138,6 @@ def get_size(path: Path) -> str:
 
     size_in_KB = round(os.path.getsize(path)/1024)
     return f"~ {size_in_KB} KB"
+
+def just_testing():
+    print('Its is working!')
